@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start-server": "node ../server/index.js",
+    "start-server": "node ./server/index.js",
     "start-all": "concurrently \"npm run start-server\" \"npm start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
